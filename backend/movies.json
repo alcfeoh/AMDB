@@ -1,0 +1,677 @@
+[
+  {
+    "title": "F1: The Movie",
+    "year": 2025,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.8
+    },
+    "image": "Brad Pitt, Javier Bardem, Kerry Condon, and Damson Idris in F1: The Movie (2025)"
+  },
+  {
+    "title": "Anatomy of a Fall",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.6
+    },
+    "image": "Sandra Hüller, Milo Machado-Graner, and Samuel Theis in Anatomy of a Fall (2023)"
+  },
+  {
+    "title": "Geostorm",
+    "year": 2017,
+    "ratings": {
+      "user": 5,
+      "imdb": 5.4
+    },
+    "image": "Talitha Eliana Bateman in Geostorm (2017)"
+  },
+  {
+    "title": "What Doesn't Kill You",
+    "year": 2008,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.5
+    },
+    "image": "What Doesn't Kill You (2008)"
+  },
+  {
+    "title": "Deadfall",
+    "year": 2012,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.2
+    },
+    "image": "Eric Bana, Charlie Hunnam, and Olivia Wilde in Deadfall (2012)"
+  },
+  {
+    "title": "Heart of Champions",
+    "year": 2021,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.0
+    },
+    "image": "Michael Shannon, Alexander Ludwig, and Charles Melton in Heart of Champions (2021)"
+  },
+  {
+    "title": "Subservience",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "Megan Fox in Subservience (2024)"
+  },
+  {
+    "title": "Barbie",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "Ryan Gosling and Margot Robbie in Barbie (2023)"
+  },
+  {
+    "title": "Watcher",
+    "year": 2022,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.3
+    },
+    "image": "Maika Monroe in Watcher (2022)"
+  },
+  {
+    "title": "Contagion",
+    "year": 2011,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.8
+    },
+    "image": "Jude Law, Matt Damon, Laurence Fishburne, Gwyneth Paltrow, Kate Winslet, and Marion Cotillard in Contagion (2011)"
+  },
+  {
+    "title": "Midnight in the Switchgrass",
+    "year": 2021,
+    "ratings": {
+      "user": 5,
+      "imdb": 4.6
+    },
+    "image": "Bruce Willis and Megan Fox in Midnight in the Switchgrass (2021)"
+  },
+  {
+    "title": "Poor Things",
+    "year": 2023,
+    "ratings": {
+      "user": 8,
+      "imdb": 7.8
+    },
+    "image": "Willem Dafoe, Mark Ruffalo, Emma Stone, Christopher Abbott, Ramy Youssef, and Jerrod Carmichael in Poor Things (2023)"
+  },
+  {
+    "title": "Black Bag",
+    "year": 2025,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.7
+    },
+    "image": "Pierce Brosnan, Cate Blanchett, Tom Burke, Naomie Harris, Michael Fassbender, Regé-Jean Page, and Marisa Abela in Black Bag (2025)"
+  },
+  {
+    "title": "The Menu",
+    "year": 2022,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.2
+    },
+    "image": "Ralph Fiennes, John Leguizamo, Janet McTeer, Paul Adelstein, Reed Birney, Nicholas Hoult, Judith Light, Jay Shadix, Peter Grosz, Hong Chau, Rob Yang, Aimee Carrero, Arturo Castro, Mark St. Cyr, and Anya Taylor-Joy in The Menu (2022)"
+  },
+  {
+    "title": "To Catch a Killer",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.6
+    },
+    "image": "Ben Mendelsohn and Shailene Woodley in To Catch a Killer (2023)"
+  },
+  {
+    "title": "Polytechnique",
+    "year": 2009,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.2
+    },
+    "image": "Polytechnique (2009)"
+  },
+  {
+    "title": "Lost Girls and Love Hotels",
+    "year": 2020,
+    "ratings": {
+      "user": 5,
+      "imdb": 4.7
+    },
+    "image": "Alexandra Daddario in Lost Girls and Love Hotels (2020)"
+  },
+  {
+    "title": "Drive-Away Dolls",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "Pedro Pascal, Bill Camp, Colman Domingo, C.J. Wilson, Beanie Feldstein, Margaret Qualley, and Geraldine Viswanathan in Drive-Away Dolls (2024)"
+  },
+  {
+    "title": "Eden Lake",
+    "year": 2008,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.7
+    },
+    "image": "Eden Lake (2008)"
+  },
+  {
+    "title": "Havoc",
+    "year": 2005,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "Anne Hathaway and Freddy Rodríguez in Havoc (2005)"
+  },
+  {
+    "title": "Hardcore",
+    "year": 1979,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.1
+    },
+    "image": "George C. Scott in Hardcore (1979)"
+  },
+  {
+    "title": "A Quiet Place: Day One",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.3
+    },
+    "image": "Lupita Nyong'o and Joseph Quinn in A Quiet Place: Day One (2024)"
+  },
+  {
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 8.5
+    },
+    "image": "Javier Bardem, Josh Brolin, Stellan Skarsgård, Rebecca Ferguson, Dave Bautista, Austin Butler, Timothée Chalamet, Zendaya, Florence Pugh, and Souheila Yacoub in Dune: Part Two (2024)"
+  },
+  {
+    "title": "Under Suspicion",
+    "year": 2000,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.4
+    },
+    "image": "Morgan Freeman, Gene Hackman, and Monica Bellucci in Under Suspicion (2000)"
+  },
+  {
+    "title": "Chernobyl",
+    "year": 2019,
+    "ratings": {
+      "user": 8,
+      "imdb": 9.3
+    },
+    "image": "Chernobyl (2019)"
+  },
+  {
+    "title": "Experimenter",
+    "year": 2015,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "Winona Ryder and Peter Sarsgaard in Experimenter (2015)"
+  },
+  {
+    "title": "Carry-On",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.5
+    },
+    "image": "Jason Bateman and Taron Egerton in Carry-On (2024)"
+  },
+  {
+    "title": "The Fall Guy",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.8
+    },
+    "image": "Ryan Gosling and Emily Blunt in The Fall Guy (2024)"
+  },
+  {
+    "title": "Your Lucky Day",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.9
+    },
+    "image": "Your Lucky Day (2023)"
+  },
+  {
+    "title": "It Ends with Us",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.3
+    },
+    "image": "Blake Lively in It Ends with Us (2024)"
+  },
+  {
+    "title": "Woman of the Hour",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "Anna Kendrick and Daniel Zovatto in Woman of the Hour (2023)"
+  },
+  {
+    "title": "Challengers",
+    "year": 2024,
+    "ratings": {
+      "user": 8,
+      "imdb": 7.0
+    },
+    "image": "Zendaya, Mike Faist, and Josh O'Connor in Challengers (2024)"
+  },
+  {
+    "title": "Of Gods and Men",
+    "year": 2010,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.2
+    },
+    "image": "Of Gods and Men (2010)"
+  },
+  {
+    "title": "Killer Heat",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.6
+    },
+    "image": "Joseph Gordon-Levitt, Richard Madden, and Shailene Woodley in Killer Heat (2024)"
+  },
+  {
+    "title": "Sicario: Day of the Soldado",
+    "year": 2018,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.1
+    },
+    "image": "Josh Brolin and Benicio Del Toro in Sicario: Day of the Soldado (2018)"
+  },
+  {
+    "title": "Don't Move",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.8
+    },
+    "image": "Moray Treadwell, Finn Wittrock, Denis Kostadinov, Kelsey Asbille, Daniel Francis, and Kate Nichols in Don't Move (2024)"
+  },
+  {
+    "title": "Focus",
+    "year": 2015,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "Will Smith and Margot Robbie in Focus (2015)"
+  },
+  {
+    "title": "Palo Alto",
+    "year": 2013,
+    "ratings": {
+      "user": 5,
+      "imdb": 6.2
+    },
+    "image": "Emma Roberts in Palo Alto (2013)"
+  },
+  {
+    "title": "The Infiltrator",
+    "year": 2016,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.0
+    },
+    "image": "Bryan Cranston in The Infiltrator (2016)"
+  },
+  {
+    "title": "Daddio",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.6
+    },
+    "image": "Sean Penn and Dakota Johnson in Daddio (2023)"
+  },
+  {
+    "title": "The Voyeurs",
+    "year": 2021,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.1
+    },
+    "image": "Sydney Sweeney, Ben Hardy, Natasha Liu Bordizzo, and Justice Smith in The Voyeurs (2021)"
+  },
+  {
+    "title": "The Family Man",
+    "year": 2000,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "Nicolas Cage, Téa Leoni, Jake Milkovich, Ryan Milkovich, and Makenzie Vega in The Family Man (2000)"
+  },
+  {
+    "title": "Miller's Girl",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.2
+    },
+    "image": "Martin Freeman and Jenna Ortega in Miller's Girl (2024)"
+  },
+  {
+    "title": "The Wild Bunch",
+    "year": 1969,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.9
+    },
+    "image": "The Wild Bunch (1969)"
+  },
+  {
+    "title": "Beast",
+    "year": 2017,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.8
+    },
+    "image": "Johnny Flynn and Jessie Buckley in Beast (2017)"
+  },
+  {
+    "title": "Wild Things",
+    "year": 1998,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "Kevin Bacon, Neve Campbell, Matt Dillon, and Denise Richards in Wild Things (1998)"
+  },
+  {
+    "title": "Upgrade",
+    "year": 2018,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.5
+    },
+    "image": "Logan Marshall-Green in Upgrade (2018)"
+  },
+  {
+    "title": "The Novice",
+    "year": 2021,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.5
+    },
+    "image": "The Novice (2021)"
+  },
+  {
+    "title": "The Abyss",
+    "year": 2023,
+    "ratings": {
+      "user": 3,
+      "imdb": 5.3
+    },
+    "image": "Peter Franzén, Tuva Novotny, Kardo Razzazi, Edvin Ryding, and Felicia Maxime in The Abyss (2023)"
+  },
+  {
+    "title": "Twisters",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.5
+    },
+    "image": "Glen Powell, Anthony Ramos, and Daisy Edgar-Jones in Twisters (2024)"
+  },
+  {
+    "title": "First Man",
+    "year": 2018,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.3
+    },
+    "image": "Ryan Gosling in First Man (2018)"
+  },
+  {
+    "title": "Life Like",
+    "year": 2019,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "Steven Strait, Addison Timlin, and Drew Van Acker in Life Like (2019)"
+  },
+  {
+    "title": "Hit Man",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "Glen Powell and Adria Arjona in Hit Man (2023)"
+  },
+  {
+    "title": "Eastern Promises",
+    "year": 2007,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.6
+    },
+    "image": "Viggo Mortensen and Naomi Watts in Eastern Promises (2007)"
+  },
+  {
+    "title": "Unthinkable",
+    "year": 2010,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.0
+    },
+    "image": "Unthinkable (2010)"
+  },
+  {
+    "title": "Passengers",
+    "year": 2016,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.0
+    },
+    "image": "Chris Pratt and Jennifer Lawrence in Passengers (2016)"
+  },
+  {
+    "title": "The Whale",
+    "year": 2022,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.6
+    },
+    "image": "Brendan Fraser in The Whale (2022)"
+  },
+  {
+    "title": "Land of Bad",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.6
+    },
+    "image": "Russell Crowe, Milo Ventimiglia, Luke Hemsworth, Ricky Whittle, and Liam Hemsworth in Land of Bad (2024)"
+  },
+  {
+    "title": "The Paper",
+    "year": 1994,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.7
+    },
+    "image": "Glenn Close, Robert Duvall, Michael Keaton, Marisa Tomei, and Randy Quaid in The Paper (1994)"
+  },
+  {
+    "title": "American Pastoral",
+    "year": 2016,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.1
+    },
+    "image": "Jennifer Connelly, Ewan McGregor, and Dakota Fanning in American Pastoral (2016)"
+  },
+  {
+    "title": "On the Line",
+    "year": 2022,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "Mel Gibson in On the Line (2022)"
+  },
+  {
+    "title": "American Fiction",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.5
+    },
+    "image": "Erika Alexander, Tracee Ellis Ross, Jeffrey Wright, Sterling K. Brown, and Issa Rae in American Fiction (2023)"
+  },
+  {
+    "title": "Incendies",
+    "year": 2010,
+    "ratings": {
+      "user": 8,
+      "imdb": 8.3
+    },
+    "image": "Mélissa Désormeaux-Poulin in Incendies (2010)"
+  },
+  {
+    "title": "My Octopus Teacher",
+    "year": 2020,
+    "ratings": {
+      "user": 8,
+      "imdb": 8.1
+    },
+    "image": "My Octopus Teacher (2020)"
+  },
+  {
+    "title": "The Judge",
+    "year": 2014,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.4
+    },
+    "image": "Robert Downey Jr. and Robert Duvall in The Judge (2014)"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "ratings": {
+      "user": 7,
+      "imdb": 8.2
+    },
+    "image": "Tom Cruise in Top Gun: Maverick (2022)"
+  },
+  {
+    "title": "The Holdovers",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.9
+    },
+    "image": "Paul Giamatti, Dominic Sessa, and Da'Vine Joy Randolph in The Holdovers (2023)"
+  },
+  {
+    "title": "American Nightmare",
+    "year": 2024,
+    "ratings": {
+      "user": 8,
+      "imdb": 7.5
+    },
+    "image": "American Nightmare (2024)"
+  },
+  {
+    "title": "Yesterday",
+    "year": 2019,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "Himesh Patel and Lily James in Yesterday (2019)"
+  },
+  {
+    "title": "2010: The Year We Make Contact",
+    "year": 1984,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.7
+    },
+    "image": "2010: The Year We Make Contact (1984)"
+  },
+  {
+    "title": "65",
+    "year": 2023,
+    "ratings": {
+      "user": 5,
+      "imdb": 5.4
+    },
+    "image": "Adam Driver in 65 (2023)"
+  },
+  {
+    "title": "The Little Things",
+    "year": 2021,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.3
+    },
+    "image": "Denzel Washington, Jared Leto, and Rami Malek in The Little Things (2021)"
+  },
+  {
+    "title": "North Hollywood",
+    "year": 2021,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.9
+    },
+    "image": "North Hollywood (2021)"
+  },
+  {
+    "title": "Life",
+    "year": 2017,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "Julie Lynn, Mary Jo Markey, and Nigel Phelps in Life (2017)"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "ratings": {
+      "user": 9,
+      "imdb": 8.7
+    },
+    "image": "Matthew McConaughey in Interstellar (2014)"
+  }
+]
