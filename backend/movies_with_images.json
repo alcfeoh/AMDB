@@ -1,0 +1,677 @@
+[
+  {
+    "title": "F1: The Movie",
+    "year": 2025,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg"
+  },
+  {
+    "title": "Anatomy of a Fall",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg"
+  },
+  {
+    "title": "Geostorm",
+    "year": 2017,
+    "ratings": {
+      "user": 5,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/nrsx0jEaBgXq4PWo7SooSnYJTv.jpg"
+  },
+  {
+    "title": "What Doesn't Kill You",
+    "year": 2008,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/eospjku2O2O5c7rcfnD7Uw5CmGf.jpg"
+  },
+  {
+    "title": "Deadfall",
+    "year": 2012,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/5ZM6uKhuEzWZD3xklmqKPuvq1Nj.jpg"
+  },
+  {
+    "title": "Heart of Champions",
+    "year": 2021,
+    "ratings": {
+      "user": 6,
+      "imdb": 6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/yhBhe8DjdFspNjMOyrqD8i9Gy60.jpg"
+  },
+  {
+    "title": "Subservience",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/gBenxR01Uy0Ev9RTIw6dVBPoyQU.jpg"
+  },
+  {
+    "title": "Barbie",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+  },
+  {
+    "title": "Watcher",
+    "year": 2022,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/dXCjoI3jdtBrwPHgVsyNLkl8Rvs.jpg"
+  },
+  {
+    "title": "Contagion",
+    "year": 2011,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/qL0IooP0bjXy0KXl9KEyPo22ll0.jpg"
+  },
+  {
+    "title": "Midnight in the Switchgrass",
+    "year": 2021,
+    "ratings": {
+      "user": 5,
+      "imdb": 4.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/1OTSuh2HNcTRfme8caU8DjgJ39K.jpg"
+  },
+  {
+    "title": "Poor Things",
+    "year": 2023,
+    "ratings": {
+      "user": 8,
+      "imdb": 7.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg"
+  },
+  {
+    "title": "Black Bag",
+    "year": 2025,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/hHPovtU4b96LHcoeEwRkGHI5btw.jpg"
+  },
+  {
+    "title": "The Menu",
+    "year": 2022,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg"
+  },
+  {
+    "title": "To Catch a Killer",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/anikluX0onmtzTe46WlazvaetwH.jpg"
+  },
+  {
+    "title": "Polytechnique",
+    "year": 2009,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/k0xmtct9cSseksuFKMSXxM8hfni.jpg"
+  },
+  {
+    "title": "Lost Girls and Love Hotels",
+    "year": 2020,
+    "ratings": {
+      "user": 5,
+      "imdb": 4.7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/vQgXwuJrlpzGDI8169tRQRy71Nv.jpg"
+  },
+  {
+    "title": "Drive-Away Dolls",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/6QPKmqntFgLm6sB47AtSelEGGPM.jpg"
+  },
+  {
+    "title": "Eden Lake",
+    "year": 2008,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/ldX6jqMf7OcMdGSyG7Uzi64a7ks.jpg"
+  },
+  {
+    "title": "Havoc",
+    "year": 2005,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/xY4c4bHPCRrwIvkxJ6qRLoyxQVo.jpg"
+  },
+  {
+    "title": "Hardcore",
+    "year": 1979,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.1
+    },
+    "image": "https://image.tmdb.org/t/p/w500/g6m9xBTAzxXVhdJ624s9BLK9o6.jpg"
+  },
+  {
+    "title": "A Quiet Place: Day One",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg"
+  },
+  {
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 8.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
+  },
+  {
+    "title": "Under Suspicion",
+    "year": 2000,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/2snkCKKthT5S8Ua0aMZkeaXkmBi.jpg"
+  },
+  {
+    "title": "Chernobyl",
+    "year": 2019,
+    "ratings": {
+      "user": 8,
+      "imdb": 9.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/hGC5xkkwYyof5nafqRClBPF2RSW.jpg"
+  },
+  {
+    "title": "Experimenter",
+    "year": 2015,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/kMTLGbekuHkpw4M8XKdN2d7n2aF.jpg"
+  },
+  {
+    "title": "Carry-On",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/sjMN7DRi4sGiledsmllEw5HJjPy.jpg"
+  },
+  {
+    "title": "The Fall Guy",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/e7olqFmzcIX5c23kX4zSmLPJi8c.jpg"
+  },
+  {
+    "title": "Your Lucky Day",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.9
+    },
+    "image": "https://image.tmdb.org/t/p/w500/id7CoASydYb7MCRLAsOT29CLJik.jpg"
+  },
+  {
+    "title": "It Ends with Us",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/cSMdFWmajaX4oUMLx7HEDI84GkP.jpg"
+  },
+  {
+    "title": "Woman of the Hour",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/nc9ZqrJFbcUdlMg9lxXXtJb24jU.jpg"
+  },
+  {
+    "title": "Challengers",
+    "year": 2024,
+    "ratings": {
+      "user": 8,
+      "imdb": 7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/H6vke7zGiuLsz4v4RPeReb9rsv.jpg"
+  },
+  {
+    "title": "Of Gods and Men",
+    "year": 2010,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/fgrC0w62MCc7Fn77l5RVY0WKv0t.jpg"
+  },
+  {
+    "title": "Killer Heat",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/WiAEiqelck0NGWplhL5JQR12eg.jpg"
+  },
+  {
+    "title": "Sicario: Day of the Soldado",
+    "year": 2018,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.1
+    },
+    "image": "https://image.tmdb.org/t/p/w500/qcLYofEhNh51Sk1jUWjmKHLzkqw.jpg"
+  },
+  {
+    "title": "Don't Move",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg"
+  },
+  {
+    "title": "Focus",
+    "year": 2015,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/lOzGWjceYTd0kd5HyX7Ch46O9kh.jpg"
+  },
+  {
+    "title": "Palo Alto",
+    "year": 2013,
+    "ratings": {
+      "user": 5,
+      "imdb": 6.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/yjcwwYP3eSigxLKKVBoVVz85ZWv.jpg"
+  },
+  {
+    "title": "The Infiltrator",
+    "year": 2016,
+    "ratings": {
+      "user": 6,
+      "imdb": 7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/758F57DxVRLe38S1Je4O1Bjx2u6.jpg"
+  },
+  {
+    "title": "Daddio",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/dyrCsHUhOfpuci51lHcdAnO3db0.jpg"
+  },
+  {
+    "title": "The Voyeurs",
+    "year": 2021,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.1
+    },
+    "image": "https://image.tmdb.org/t/p/w500/8Y4XOIWhpOvSOEn8XrxbkH9yAXO.jpg"
+  },
+  {
+    "title": "The Family Man",
+    "year": 2000,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg"
+  },
+  {
+    "title": "Miller's Girl",
+    "year": 2024,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/ieU0zUj7WhE0GrgpgofRH0sNjbI.jpg"
+  },
+  {
+    "title": "The Wild Bunch",
+    "year": 1969,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.9
+    },
+    "image": "https://image.tmdb.org/t/p/w500/8j9yEC3xjy1PJDSizIbaxcHaSph.jpg"
+  },
+  {
+    "title": "Beast",
+    "year": 2017,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/kZdncyp1IKhEqwv5zdmUpK5Dc7S.jpg"
+  },
+  {
+    "title": "Wild Things",
+    "year": 1998,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/wrcTDD9T7Ga5c9MW7kaOo2qwIvW.jpg"
+  },
+  {
+    "title": "Upgrade",
+    "year": 2018,
+    "ratings": {
+      "user": 6,
+      "imdb": 7.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/5f28TXtvHioXirX2n1XH8EJ314v.jpg"
+  },
+  {
+    "title": "The Novice",
+    "year": 2021,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/dCujw00nVfBrIJc1osoR6HC92SV.jpg"
+  },
+  {
+    "title": "The Abyss",
+    "year": 2023,
+    "ratings": {
+      "user": 3,
+      "imdb": 5.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/2dCit3XAtv9KWCJvRKdPkJ0FAkH.jpg"
+  },
+  {
+    "title": "Twisters",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg"
+  },
+  {
+    "title": "First Man",
+    "year": 2018,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg"
+  },
+  {
+    "title": "Life Like",
+    "year": 2019,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/uOVGbT6TR8qiZiruX66yBRXq9Nv.jpg"
+  },
+  {
+    "title": "Hit Man",
+    "year": 2023,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/vm1sLGAh14DoOSojgV5f1nDFSQh.jpg"
+  },
+  {
+    "title": "Eastern Promises",
+    "year": 2007,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/dpiJWb4NrWgcOg2rusuLhDM0hTm.jpg"
+  },
+  {
+    "title": "Unthinkable",
+    "year": 2010,
+    "ratings": {
+      "user": 7,
+      "imdb": 7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/6yQqguytl10FhImngDHV90Aqewa.jpg"
+  },
+  {
+    "title": "Passengers",
+    "year": 2016,
+    "ratings": {
+      "user": 6,
+      "imdb": 7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/jK9S6HANSf2no64v1x1HxfcpmcA.jpg"
+  },
+  {
+    "title": "The Whale",
+    "year": 2022,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg"
+  },
+  {
+    "title": "Land of Bad",
+    "year": 2024,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg"
+  },
+  {
+    "title": "The Paper",
+    "year": 1994,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/pGPrFbucRLwVtCKCeinwAklAl0l.jpg"
+  },
+  {
+    "title": "American Pastoral",
+    "year": 2016,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.1
+    },
+    "image": "https://image.tmdb.org/t/p/w500/pgpMzdML9FUj3GpDU3LFi7AWbHQ.jpg"
+  },
+  {
+    "title": "On the Line",
+    "year": 2022,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/y0LjM612TshmHBL8fPfJreToE7S.jpg"
+  },
+  {
+    "title": "American Fiction",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/57MFWGHarg9jid7yfDTka4RmcMU.jpg"
+  },
+  {
+    "title": "Incendies",
+    "year": 2010,
+    "ratings": {
+      "user": 8,
+      "imdb": 8.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/yH6DAQVgbyj72S66gN4WWVoTjuf.jpg"
+  },
+  {
+    "title": "My Octopus Teacher",
+    "year": 2020,
+    "ratings": {
+      "user": 8,
+      "imdb": 8.1
+    },
+    "image": "https://image.tmdb.org/t/p/w500/hvTVZb7hBC8tZAGoEhH5eiMJu2B.jpg"
+  },
+  {
+    "title": "The Judge",
+    "year": 2014,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/3K93GWotLXe4FqpErri0xkpLaD5.jpg"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "ratings": {
+      "user": 7,
+      "imdb": 8.2
+    },
+    "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+  },
+  {
+    "title": "The Holdovers",
+    "year": 2023,
+    "ratings": {
+      "user": 7,
+      "imdb": 7.9
+    },
+    "image": "https://image.tmdb.org/t/p/w500/VHSzNBTwxV8vh7wylo7O9CLdac.jpg"
+  },
+  {
+    "title": "American Nightmare",
+    "year": 2024,
+    "ratings": {
+      "user": 8,
+      "imdb": 7.5
+    },
+    "image": "https://image.tmdb.org/t/p/w500/aQUcUTf13Zq9bIDCP3mKdae1bvS.jpg"
+  },
+  {
+    "title": "Yesterday",
+    "year": 2019,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.8
+    },
+    "image": "https://image.tmdb.org/t/p/w500/9fYka5CQt9nrb6LOtKicysUf9NA.jpg"
+  },
+  {
+    "title": "2010: The Year We Make Contact",
+    "year": 1984,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/mEWKXuCMv7mFMxXVSTI3v8UOQuq.jpg"
+  },
+  {
+    "title": "65",
+    "year": 2023,
+    "ratings": {
+      "user": 5,
+      "imdb": 5.4
+    },
+    "image": "https://image.tmdb.org/t/p/w500/rzRb63TldOKdKydCvWJM8B6EkPM.jpg"
+  },
+  {
+    "title": "The Little Things",
+    "year": 2021,
+    "ratings": {
+      "user": 7,
+      "imdb": 6.3
+    },
+    "image": "https://image.tmdb.org/t/p/w500/tLO1aD1ghdtVMT32z2sRmzgYKYd.jpg"
+  },
+  {
+    "title": "North Hollywood",
+    "year": 2021,
+    "ratings": {
+      "user": 6,
+      "imdb": 5.9
+    },
+    "image": "https://image.tmdb.org/t/p/w500/rLVxpEkiSs8OnOqg8QmLT7Bs09e.jpg"
+  },
+  {
+    "title": "Life",
+    "year": 2017,
+    "ratings": {
+      "user": 6,
+      "imdb": 6.6
+    },
+    "image": "https://image.tmdb.org/t/p/w500/wztfli5NgYDgurVgShNflvnyA3Z.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "ratings": {
+      "user": 9,
+      "imdb": 8.7
+    },
+    "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  }
+]
