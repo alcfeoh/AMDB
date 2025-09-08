@@ -20,23 +20,30 @@ const API_KEY = '3799911f440cc5749c9d874b6eb027e8';
 
 /**
  * Route: GET /search
- * Description: Searches for movies and returns results with full image paths.
- * Query Params: ?query=<movie_title>
+ * Description: Searches for movies if a query is provided, otherwise returns trending movies for the week.
+ * Query Params: ?query=<movie_title> (optional)
  */
 app.get('/search', async (req, res) => {
   const { query } = req.query;
-
-  if (!query) {
-    return res.status(400).json({ message: 'A search query parameter is required.' });
-  }
+  let response;
 
   try {
-    const response = await axios.get(`${TMDB_API_BASE_URL}/search/movie`, {
-      params: {
-        api_key: API_KEY,
-        query: query,
-      },
-    });
+    if (query) {
+      // A query is provided, so search for movies
+      response = await axios.get(`${TMDB_API_BASE_URL}/search/movie`, {
+        params: {
+          api_key: API_KEY,
+          query: query,
+        },
+      });
+    } else {
+      // No query, so get trending movies for the week
+      response = await axios.get(`${TMDB_API_BASE_URL}/trending/movie/week`, {
+        params: {
+          api_key: API_KEY,
+        },
+      });
+    }
 
     // Modify the results to include full image paths
     const modifiedResults = response.data.results.map(movie => ({
@@ -49,10 +56,14 @@ app.get('/search', async (req, res) => {
     res.json({ ...response.data, results: modifiedResults });
 
   } catch (error) {
-    console.error('Error fetching from TMDB search:', error.message);
+    const errorMessage = query
+      ? `Error fetching from TMDB search for query "${query}":`
+      : 'Error fetching trending movies from TMDB:';
+    console.error(errorMessage, error.message);
     res.status(500).json({ message: 'Failed to fetch data from TMDB.' });
   }
 });
+
 
 /**
  * Route: GET /details
