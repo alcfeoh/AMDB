@@ -1,9 +1,9 @@
-import {Component, inject} from '@angular/core';
+import {ChangeDetectionStrategy, Component, input, model} from '@angular/core';
 import {MatCard} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
-import {AsyncPipe, DatePipe, DecimalPipe, NgClass} from '@angular/common';
-import {HttpClient} from '@angular/common/http';
+import {DatePipe, DecimalPipe, NgClass} from '@angular/common';
 import {SearchResponse} from '../../types';
+
 
 @Component({
   selector: 'app-movie-list',
@@ -11,19 +11,22 @@ import {SearchResponse} from '../../types';
     MatCard,
     MatTableModule,
     NgClass,
-    AsyncPipe,
     DecimalPipe,
     DatePipe
   ],
   templateUrl: './movie-list.html',
-  styleUrl: './movie-list.scss'
+  styleUrl: './movie-list.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MovieList {
   // Columns to be displayed in the table. The order here matters.
-  displayedColumns: string[] = ['title', 'poster_path', 'release_date', 'vote_average'];
+  displayedColumns = model(['title', 'poster_path', 'release_date', 'vote_average']);
 
-  // The data source for the table, which is our array of movies.
-  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/search");
+  dataSource = input.required<SearchResponse>();
+
+  removeColumn(name: string) {
+    this.displayedColumns.update(list => list.filter(col => col !== name));
+  }
 
   /**
    * Returns a CSS class based on the movie rating to color-code it.

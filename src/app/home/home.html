@@ -19,6 +19,18 @@
   </button>
 </mat-toolbar>
 
+
+
 <div>
-  <app-movie-list></app-movie-list>
+  @if(movieListResource.isLoading()) {
+    <p>Loading...</p>
+  }
+  @if (movieListResource.hasValue()) {
+    <app-movie-list [dataSource]="movieListResource.value()"></app-movie-list>
+  }
+  @if (movieListResource.error()) {
+    <p>Sorry, an error happened</p>
+    <button (click)="movieListResource.reload()">Try again</button>
+  }
+
 </div>

@@ -4,23 +4,27 @@
 
     <mat-card class="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
       <!-- The mat-table directive is what creates the table -->
-      <table mat-table [dataSource]="(dataSource$ | async)?.results ?? []" class="w-full">
+      <table mat-table [dataSource]="dataSource().results" class="w-full">
 
         <!-- Title Column -->
         <ng-container matColumnDef="title">
-          <th mat-header-cell *matHeaderCellDef class="text-left p-4 bg-gray-700 text-base font-semibold"> Title </th>
+          <th mat-header-cell *matHeaderCellDef class="text-left p-4 bg-gray-700 text-base font-semibold">
+            Title <span (click)="removeColumn('title')">x</span>
+          </th>
           <td mat-cell *matCellDef="let movie" class="p-4 border-b border-gray-700"> {{movie.title}} </td>
         </ng-container>
 
         <!-- Year Column -->
         <ng-container matColumnDef="release_date">
-          <th mat-header-cell *matHeaderCellDef class="text-left p-4 bg-gray-700 text-base font-semibold"> Year </th>
+          <th mat-header-cell *matHeaderCellDef class="text-left p-4 bg-gray-700 text-base font-semibold">
+            Year <span (click)="removeColumn('release_date')">x</span>
+          </th>
           <td mat-cell *matCellDef="let movie" class="p-4 border-b border-gray-700"> {{movie.release_date | date: "yyyy"}} </td>
         </ng-container>
 
         <!-- Genre Column -->
         <ng-container matColumnDef="poster_path">
-          <th mat-header-cell *matHeaderCellDef class="text-left p-4 bg-gray-700 text-base font-semibold"> Genre </th>
+          <th mat-header-cell *matHeaderCellDef class="text-left p-4 bg-gray-700 text-base font-semibold"> Poster </th>
           <td mat-cell *matCellDef="let movie" class="p-4 border-b border-gray-700">
             <img [src]="movie.poster_path" [alt]="movie.title"/>
           </td>
@@ -37,8 +41,8 @@
         </ng-container>
 
         <!-- Header and Row Declarations -->
-        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="hover:bg-gray-700 transition-colors duration-200"></tr>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns()"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns();" class="hover:bg-gray-700 transition-colors duration-200"></tr>
       </table>
     </mat-card>
   </div>
