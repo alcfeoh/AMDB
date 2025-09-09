@@ -20,30 +20,23 @@ const API_KEY = '3799911f440cc5749c9d874b6eb027e8';
 
 /**
  * Route: GET /search
- * Description: Searches for movies if a query is provided, otherwise returns trending movies for the week.
- * Query Params: ?query=<movie_title> (optional)
+ * Description: Searches for movies and returns results with full image paths.
+ * Query Params: ?query=<movie_title>
  */
 app.get('/search', async (req, res) => {
   const { query } = req.query;
-  let response;
+
+  if (!query) {
+    return res.status(400).json({ message: 'A search query parameter is required.' });
+  }
 
   try {
-    if (query) {
-      // A query is provided, so search for movies
-      response = await axios.get(`${TMDB_API_BASE_URL}/search/movie`, {
-        params: {
-          api_key: API_KEY,
-          query: query,
-        },
-      });
-    } else {
-      // No query, so get trending movies for the week
-      response = await axios.get(`${TMDB_API_BASE_URL}/trending/movie/week`, {
-        params: {
-          api_key: API_KEY,
-        },
-      });
-    }
+    const response = await axios.get(`${TMDB_API_BASE_URL}/search/movie`, {
+      params: {
+        api_key: API_KEY,
+        query: query,
+      },
+    });
 
     // Modify the results to include full image paths
     const modifiedResults = response.data.results.map(movie => ({
@@ -56,14 +49,38 @@ app.get('/search', async (req, res) => {
     res.json({ ...response.data, results: modifiedResults });
 
   } catch (error) {
-    const errorMessage = query
-      ? `Error fetching from TMDB search for query "${query}":`
-      : 'Error fetching trending movies from TMDB:';
-    console.error(errorMessage, error.message);
+    console.error('Error fetching from TMDB search:', error.message);
     res.status(500).json({ message: 'Failed to fetch data from TMDB.' });
   }
 });
 
+/**
+ * Route: GET /trending
+ * Description: Gets trending movies for the week.
+ */
+app.get('/trending', async (req, res) => {
+  try {
+    const response = await axios.get(`${TMDB_API_BASE_URL}/trending/movie/week`, {
+      params: {
+        api_key: API_KEY,
+      },
+    });
+
+    // Modify the results to include full image paths
+    const modifiedResults = response.data.results.map(movie => ({
+      ...movie,
+      poster_path: movie.poster_path ? `${TMDB_IMAGE_BASE_URL}/w500${movie.poster_path}` : null,
+      backdrop_path: movie.backdrop_path ? `${TMDB_IMAGE_BASE_URL}/w1280${movie.backdrop_path}` : null,
+    }));
+
+    // Send the modified data back
+    res.json({ ...response.data, results: modifiedResults });
+
+  } catch (error) {
+    console.error('Error fetching trending movies from TMDB:', error.message);
+    res.status(500).json({ message: 'Failed to fetch data from TMDB.' });
+  }
+});
 
 /**
  * Route: GET /details

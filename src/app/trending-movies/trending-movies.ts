@@ -4,9 +4,10 @@ import {MatTableModule} from '@angular/material/table';
 import {AsyncPipe, DatePipe, DecimalPipe, NgClass} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
+import {MoviesService} from '../movies.service';
 
 @Component({
-  selector: 'app-movie-list',
+  selector: 'app-trending-movies',
   imports: [
     MatCard,
     MatTableModule,
@@ -15,15 +16,17 @@ import {SearchResponse} from '../../types';
     DecimalPipe,
     DatePipe
   ],
-  templateUrl: './movie-list.html',
-  styleUrl: './movie-list.scss'
+  templateUrl: './trending-movies.html',
+  styleUrl: './trending-movies.scss'
 })
-export class MovieList {
+export class TrendingMovies {
   // Columns to be displayed in the table. The order here matters.
   displayedColumns: string[] = ['title', 'poster_path', 'release_date', 'vote_average'];
 
   // The data source for the table, which is our array of movies.
-  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/search");
+  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/trending");
+
+  moviesService = inject(MoviesService);
 
   /**
    * Returns a CSS class based on the movie rating to color-code it.

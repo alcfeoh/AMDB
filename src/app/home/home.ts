@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {MatToolbar} from '@angular/material/toolbar';
 import {MatIcon} from '@angular/material/icon';
 import {MatButton} from '@angular/material/button';
-import {MovieList} from '../movie-list/movie-list';
+import {TrendingMovies} from '../trending-movies/trending-movies';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +10,7 @@ import {MovieList} from '../movie-list/movie-list';
     MatToolbar,
     MatIcon,
     MatButton,
-    MovieList
+    TrendingMovies
   ],
   templateUrl: './home.html',
   styleUrl: './home.scss'
