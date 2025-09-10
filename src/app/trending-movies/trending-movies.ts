@@ -1,7 +1,7 @@
 import {Component, inject} from '@angular/core';
 import {MatCard} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
-import {AsyncPipe, DatePipe, DecimalPipe, NgClass} from '@angular/common';
+import {DatePipe, DecimalPipe, NgClass} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
 import {MoviesService} from '../movies.service';
@@ -12,7 +12,6 @@ import {MoviesService} from '../movies.service';
     MatCard,
     MatTableModule,
     NgClass,
-    AsyncPipe,
     DecimalPipe,
     DatePipe
   ],
