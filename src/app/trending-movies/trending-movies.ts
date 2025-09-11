@@ -22,9 +22,6 @@ export class TrendingMovies {
   // Columns to be displayed in the table. The order here matters.
   displayedColumns: string[] = ['title', 'poster_path', 'release_date', 'vote_average'];
 
-  // The data source for the table, which is our array of movies.
-  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/trending");
-
   moviesService = inject(MoviesService);
 
   /**
@@ -33,6 +30,7 @@ export class TrendingMovies {
    * @returns A string representing the CSS class.
    */
   getRatingColor(rating: number): string {
+    console.log("get rating")
     if (rating >= 8.0) {
       return 'rating-high';
     } else if (rating >= 6.0) {

@@ -3,12 +3,12 @@
 
   <span class="spacer"></span>
 
-  <button mat-button>
+  <button mat-button routerLink="trending">
     <mat-icon>trending_up</mat-icon>
     Trending Movies
   </button>
 
-  <button mat-button>
+  <button mat-button routerLink="search">
     <mat-icon>search</mat-icon>
     Movie Search
   </button>
@@ -25,5 +25,5 @@
 </mat-toolbar>
 
 <div>
-  <app-trending-movies></app-trending-movies>
+  <router-outlet />
 </div>

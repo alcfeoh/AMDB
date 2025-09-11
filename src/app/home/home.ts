@@ -3,6 +3,7 @@ import {MatToolbar} from '@angular/material/toolbar';
 import {MatIcon} from '@angular/material/icon';
 import {MatButton} from '@angular/material/button';
 import {TrendingMovies} from '../trending-movies/trending-movies';
+import {RouterLink, RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,9 @@ import {TrendingMovies} from '../trending-movies/trending-movies';
     MatToolbar,
     MatIcon,
     MatButton,
-    TrendingMovies
+    TrendingMovies,
+    RouterLink,
+    RouterOutlet
   ],
   templateUrl: './home.html',
   styleUrl: './home.scss'
