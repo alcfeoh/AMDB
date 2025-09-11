@@ -11,8 +11,8 @@ export class MoviesService {
     () => ({url: `http://localhost:3000/trending`}),
     {defaultValue: {page: 0, results: [], total_pages: 0, total_results: 0}}
   );
-  private readonly searchQuery = signal("");
-  readonly movieSearchResult = httpResource<SearchResponse>(
+  private readonly searchQuery = signal<string>("");
+  readonly movieSearchResult: HttpResourceRef<SearchResponse> = httpResource<SearchResponse>(
     () => ({url: `http://localhost:3000/search?query=${this.searchQuery()}`}),
     {defaultValue: {page: 0, results: [], total_pages: 0, total_results: 0}}
   );

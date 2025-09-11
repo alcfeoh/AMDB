@@ -1,1 +1,17 @@
-<p>search-movies works!</p>
+<form>
+  <mat-form-field>
+    <mat-label>Movie Search</mat-label>
+    <input type="text"
+           matInput #input
+           (input)="moviesService.updateSearchQuery(input.value)"
+           [value]="selectedMovie?.title"
+           [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selectMovie($event)">
+      @for (option of moviesFound().results; track option.id) {
+        <mat-option [value]="option">{{option.title}}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
+Selected movie: {{selectedMovie?.title}}

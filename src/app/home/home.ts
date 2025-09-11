@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import {MatToolbar} from '@angular/material/toolbar';
 import {MatIcon} from '@angular/material/icon';
 import {MatButton} from '@angular/material/button';
-import {TrendingMovies} from '../trending-movies/trending-movies';
 import {RouterLink, RouterOutlet} from '@angular/router';
 
 @Component({
@@ -11,7 +10,6 @@ import {RouterLink, RouterOutlet} from '@angular/router';
     MatToolbar,
     MatIcon,
     MatButton,
-    TrendingMovies,
     RouterLink,
     RouterOutlet
   ],

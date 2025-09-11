@@ -27,7 +27,7 @@ app.get('/search', async (req, res) => {
   const { query } = req.query;
 
   if (!query) {
-    return res.status(400).json({ message: 'A search query parameter is required.' });
+    return res.status(200).json({page: 0, results: [], total_pages: 0, total_results: 0});
   }
 
   try {
@@ -91,7 +91,7 @@ app.get('/details', async (req, res) => {
   const { id } = req.query;
 
   if (!id) {
-    return res.status(400).json({ message: 'A movie ID parameter is required.' });
+    return res.status(200).json({page: 0, results: [], total_pages: 0, total_results: 0});
   }
 
   try {
