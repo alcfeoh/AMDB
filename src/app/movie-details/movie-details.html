@@ -35,7 +35,7 @@
           <p>{{ movieDetails.overview }}</p>
         </div>
 
-        @if (movieDetails.genres?.length) {
+        @if (movieDetails.genres.length) {
           <div class="genres">
             <mat-chip-listbox aria-label="Movie genres">
               @for (genre of movieDetails.genres; track genre.id) {
