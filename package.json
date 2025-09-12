@@ -7,6 +7,7 @@
     "build": "ng build",
     "server": "node backend/server.js",
     "watch": "ng build --watch --configuration development",
+    "serve-build-static": "http-server ./dist/AMDB/browser",
     "test": "ng test"
   },
   "prettier": {
