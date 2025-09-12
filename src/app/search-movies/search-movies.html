@@ -8,10 +8,14 @@
            [matAutocomplete]="auto">
     <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selectMovie($event)">
       @for (option of moviesFound().results; track option.id) {
-        <mat-option [value]="option">{{option.title}}</mat-option>
+        <mat-option [value]="option">
+          {{option.title}} ({{option.release_date | date:'yyyy'}})
+      </mat-option>
       }
     </mat-autocomplete>
   </mat-form-field>
 </form>
+@if (selectedMovie) {
+  <app-movie-details [id]="selectedMovie.id"></app-movie-details>
+}
 
-Selected movie: {{selectedMovie?.title}}

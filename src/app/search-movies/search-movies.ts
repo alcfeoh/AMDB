@@ -5,6 +5,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MoviesService} from '../movies.service';
 import {MovieDetails} from '../../types';
+import {DatePipe} from '@angular/common';
+import {MovieDetailsComponent} from '../movie-details/movie-details';
 
 @Component({
   selector: 'app-search-movies',
@@ -12,7 +14,9 @@ import {MovieDetails} from '../../types';
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    DatePipe,
+    MovieDetailsComponent
   ],
   templateUrl: './search-movies.html',
   styleUrl: './search-movies.scss'
