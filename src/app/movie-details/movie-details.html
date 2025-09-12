@@ -1,0 +1,57 @@
+@if (movie(); as movieDetails) {
+  <div class="details-container" [style.background-image]="'url(' + movieDetails.backdrop_path + ')'">
+    <div class="backdrop-overlay"></div>
+    <div class="details-content">
+      <div class="poster">
+        <img [src]="movieDetails.poster_path" [alt]="movieDetails.title">
+      </div>
+      <div class="info">
+        <h1 class="title">
+          {{ movieDetails.title }}
+          <span class="release-year">({{ movieDetails.release_date | date:'yyyy' }})</span>
+        </h1>
+
+        <div class="meta">
+          <span>{{ movieDetails.release_date | date:'MM/dd/yyyy' }}</span>
+          <!--
+          @if(movieDetails?.runtime) {
+            <span class="separator">•</span>
+            <span>{{ formatRuntime(movieDetails.runtime) }}</span>
+          }
+                 -->
+        </div>
+
+
+        <div class="rating-section">
+          <div class="rating-value" [ngClass]="getRatingClass(movieDetails.vote_average)">
+            <mat-icon>star</mat-icon>
+            <span>{{ movieDetails.vote_average | number:'1.1-1' }}</span>
+          </div>
+          <div class="rating-count">
+            ({{ movieDetails.vote_count | number }} votes)
+          </div>
+        </div>
+<!--
+        @if (movieDetails.tagline) {
+          <h3 class="tagline">{{ movieDetails.tagline }}</h3>
+        }
+-->
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>{{ movieDetails.overview }}</p>
+        </div>
+<!--
+        @if (movieDetails.genres?.length) {
+          <div class="genres">
+            <mat-chip-listbox aria-label="Movie genres">
+              @for (genre of movieDetails.genres; track genre.id) {
+                <mat-chip>{{ genre.name }}</mat-chip>
+              }
+            </mat-chip-listbox>
+          </div>
+        }
+        -->
+      </div>
+    </div>
+  </div>
+}
