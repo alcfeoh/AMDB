@@ -5,6 +5,7 @@ import {DatePipe, DecimalPipe, NgClass} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
 import {MoviesService} from '../movies.service';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-trending-movies',
@@ -13,7 +14,8 @@ import {MoviesService} from '../movies.service';
     MatTableModule,
     NgClass,
     DecimalPipe,
-    DatePipe
+    DatePipe,
+    RouterLink
   ],
   templateUrl: './trending-movies.html',
   styleUrl: './trending-movies.scss'

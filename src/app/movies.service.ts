@@ -1,6 +1,6 @@
-import {Injectable, signal} from '@angular/core';
+import {Injectable, Signal, signal} from '@angular/core';
 import {httpResource, HttpResourceRef} from '@angular/common/http';
-import {SearchResponse} from '../types';
+import {MovieDetails, SearchResponse} from '../types';
 
 @Injectable({
   providedIn: 'root'
@@ -19,5 +19,11 @@ export class MoviesService {
 
   updateSearchQuery(query: string) {
     this.searchQuery.set(query);
+  }
+
+  getMovieDetails(movieId: Signal<number>): HttpResourceRef<MovieDetails | undefined> {
+    return httpResource<MovieDetails>(
+      () => ({url: `http://localhost:3000/details?id=${movieId()}`})
+    )
   }
 }

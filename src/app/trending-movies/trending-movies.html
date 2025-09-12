@@ -38,7 +38,7 @@
 
         <!-- Header and Row Declarations -->
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="hover:bg-gray-700 transition-colors duration-200"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;" [routerLink]="['/app/movie', row.id]" class="hover:bg-gray-700 transition-colors duration-200 cursor-pointer"></tr>
       </table>
     </mat-card>
   </div>

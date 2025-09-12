@@ -1,4 +1,4 @@
-@if (movie(); as movieDetails) {
+@if (movie.value(); as movieDetails) {
   <div class="details-container" [style.background-image]="'url(' + movieDetails.backdrop_path + ')'">
     <div class="backdrop-overlay"></div>
     <div class="details-content">
@@ -13,12 +13,8 @@
 
         <div class="meta">
           <span>{{ movieDetails.release_date | date:'MM/dd/yyyy' }}</span>
-          <!--
-          @if(movieDetails?.runtime) {
-            <span class="separator">•</span>
-            <span>{{ formatRuntime(movieDetails.runtime) }}</span>
-          }
-                 -->
+          <span class="separator">•</span>
+          <span>{{ formatRuntime(movieDetails.runtime) }}</span>
         </div>
 
 
@@ -31,16 +27,14 @@
             ({{ movieDetails.vote_count | number }} votes)
           </div>
         </div>
-<!--
-        @if (movieDetails.tagline) {
-          <h3 class="tagline">{{ movieDetails.tagline }}</h3>
-        }
--->
+
+        <strong class="tagline">{{ movieDetails.tagline }}</strong>
+
         <div class="overview">
           <h2>Overview</h2>
           <p>{{ movieDetails.overview }}</p>
         </div>
-<!--
+
         @if (movieDetails.genres?.length) {
           <div class="genres">
             <mat-chip-listbox aria-label="Movie genres">
@@ -50,7 +44,6 @@
             </mat-chip-listbox>
           </div>
         }
-        -->
       </div>
     </div>
   </div>
