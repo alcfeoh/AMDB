@@ -27,7 +27,7 @@ export class TrendingMovies {
 
   moviesService = inject(MoviesService);
   // The data source for the table, which is our array of movies.
-  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/search");
+  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/trending");
 
   /**
    * Returns a CSS class based on the movie rating to color-code it.
