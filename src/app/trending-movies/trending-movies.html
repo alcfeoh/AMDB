@@ -3,8 +3,8 @@
   <div class="max-w-7xl mx-auto">
 
     <mat-card class="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
-      <!-- The mat-table directive is what creates the table -->
-      <table mat-table [dataSource]="moviesService.trendingMovies.value().results" class="w-full">
+        <!-- TODO Improve this -->
+        <table mat-table [dataSource]="(dataSource$ | async)?.results ?? []" class="w-full">
 
         <!-- Title Column -->
         <ng-container matColumnDef="title">

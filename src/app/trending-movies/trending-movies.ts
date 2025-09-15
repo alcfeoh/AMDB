@@ -1,7 +1,7 @@
 import {Component, inject} from '@angular/core';
 import {MatCard} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
-import {DatePipe, DecimalPipe, NgClass} from '@angular/common';
+import {AsyncPipe, DatePipe, DecimalPipe, NgClass} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
 import {MoviesService} from '../movies.service';
@@ -15,7 +15,8 @@ import {RouterLink} from '@angular/router';
     NgClass,
     DecimalPipe,
     DatePipe,
-    RouterLink
+    RouterLink,
+    AsyncPipe
   ],
   templateUrl: './trending-movies.html',
   styleUrl: './trending-movies.scss'
@@ -25,6 +26,8 @@ export class TrendingMovies {
   displayedColumns: string[] = ['title', 'poster_path', 'release_date', 'vote_average'];
 
   moviesService = inject(MoviesService);
+  // The data source for the table, which is our array of movies.
+  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/search");
 
   /**
    * Returns a CSS class based on the movie rating to color-code it.
