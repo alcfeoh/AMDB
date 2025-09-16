@@ -45,6 +45,6 @@ export class TrendingMovies {
   }
 
   getRating(rating: number): string {
-    return new Number(rating).toFixed(2).toLocaleString();
+    return new Intl.NumberFormat('en-US').format(rating);
   }
 }
