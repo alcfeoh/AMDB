@@ -22,7 +22,6 @@ import {MovieDetailsComponent} from '../movie-details/movie-details';
   styleUrl: './search-movies.scss'
 })
 export class SearchMovies {
-
   moviesService = inject(MoviesService);
   moviesFound = this.moviesService.movieSearchResult.value;
   selectedMovie?: MovieDetails;

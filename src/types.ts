@@ -30,9 +30,10 @@ export interface BelongsToCollection {
  * Represents a production country.
  */
 export interface ProductionCountry {
-  iso_3166_1: string;
+  iso_3166_1:  string;
   name: string;
 }
+
 
 /**
  * Represents a spoken language.
@@ -77,6 +78,7 @@ export interface MovieSearchResult {
 }
 
 // --------------------------------------------------
+
 
 /**
  * The response object for the GET /details endpoint.

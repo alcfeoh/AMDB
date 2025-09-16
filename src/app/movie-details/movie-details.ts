@@ -15,6 +15,7 @@ export class MovieDetailsComponent {
   id = input.required<number>();
   movie = this.moviesService.getMovieDetails(this.id);
 
+
   /**
    * Formats runtime from minutes to hours and minutes (e.g., 125 -> 2h 5m).
    */

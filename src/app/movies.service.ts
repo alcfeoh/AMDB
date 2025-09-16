@@ -1,4 +1,4 @@
-import {Injectable, Signal, signal} from '@angular/core';
+import {inject, Injectable, Signal, signal} from '@angular/core';
 import {httpResource, HttpResourceRef} from '@angular/common/http';
 import {MovieDetails, SearchResponse} from '../types';
 
@@ -6,6 +6,7 @@ import {MovieDetails, SearchResponse} from '../types';
   providedIn: 'root'
 })
 export class MoviesService {
+
 
   readonly trendingMovies = httpResource<SearchResponse>(
     () => `http://localhost:3000/trending`,

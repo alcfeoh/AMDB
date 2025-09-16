@@ -1,4 +1,4 @@
-@if (movie.value(); as movieDetails) {
+@if (movie?.value(); as movieDetails) {
   <div class="details-container" [style.background-image]="'url(' + movieDetails.backdrop_path + ')'">
     <div class="backdrop-overlay"></div>
     <div class="details-content">

@@ -6,6 +6,8 @@ import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
 import {MoviesService} from '../movies.service';
 import {RouterLink} from '@angular/router';
+import {MatButton} from '@angular/material/button';
+import {MatBadge} from '@angular/material/badge';
 
 @Component({
   selector: 'app-trending-movies',
@@ -16,7 +18,9 @@ import {RouterLink} from '@angular/router';
     DecimalPipe,
     DatePipe,
     RouterLink,
-    AsyncPipe
+    AsyncPipe,
+    MatButton,
+    MatBadge
   ],
   templateUrl: './trending-movies.html',
   styleUrl: './trending-movies.scss'
@@ -26,8 +30,6 @@ export class TrendingMovies {
   displayedColumns: string[] = ['title', 'poster_path', 'release_date', 'vote_average'];
 
   moviesService = inject(MoviesService);
-  // The data source for the table, which is our array of movies.
-  dataSource$ = inject(HttpClient).get<SearchResponse>("http://localhost:3000/trending");
 
   /**
    * Returns a CSS class based on the movie rating to color-code it.
