@@ -1,7 +1,7 @@
 import {Component, inject} from '@angular/core';
 import {MatCard} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
-import {AsyncPipe, DatePipe, DecimalPipe, NgClass} from '@angular/common';
+import {AsyncPipe, DatePipe, NgClass} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
 import {MoviesService} from '../movies.service';
@@ -13,7 +13,6 @@ import {RouterLink} from '@angular/router';
     MatCard,
     MatTableModule,
     NgClass,
-    DecimalPipe,
     DatePipe,
     RouterLink,
     AsyncPipe
@@ -35,7 +34,7 @@ export class TrendingMovies {
    * @returns A string representing the CSS class.
    */
   getRatingColor(rating: number): string {
-    console.log("get rating")
+    console.log("get rating color");
     if (rating >= 8.0) {
       return 'rating-high';
     } else if (rating >= 6.0) {
@@ -43,5 +42,9 @@ export class TrendingMovies {
     } else {
       return 'rating-low';
     }
+  }
+
+  getRating(rating: number): string {
+    return new Number(rating).toFixed(2).toLocaleString();
   }
 }
