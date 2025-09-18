@@ -1,4 +1,4 @@
-import {Component, computed, inject, input, signal} from '@angular/core';
+import {Component, inject, input} from '@angular/core';
 import {MoviesService} from '../movies.service';
 import {CommonModule} from '@angular/common';
 import {MatChipsModule} from '@angular/material/chips';
