@@ -2,6 +2,12 @@
 
   <div class="max-w-7xl mx-auto">
 
+    <div>
+      <button matButton (click)="toggleTotalVotes()">
+        Toggle total votes
+      </button>
+    </div>
+
     <mat-card class="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
         <!-- TODO Improve this -->
         <table mat-table [dataSource]="(dataSource$ | async)?.results ?? []" class="w-full">
@@ -33,6 +39,9 @@
                 <span class="font-bold" [ngClass]="getRatingColor(movie.vote_average)">
                   {{getRating(movie.vote_average) }} / 10
                 </span>
+            @if(showTotalVotes()){
+              <span>({{movie.vote_count}} votes)</span>
+            }
           </td>
         </ng-container>
 

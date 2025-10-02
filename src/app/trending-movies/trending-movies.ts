@@ -1,4 +1,4 @@
-import {Component, inject} from '@angular/core';
+import {Component, inject, signal} from '@angular/core';
 import {MatCard} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
 import {AsyncPipe, DatePipe, NgClass} from '@angular/common';
@@ -6,6 +6,7 @@ import {HttpClient} from '@angular/common/http';
 import {SearchResponse} from '../../types';
 import {MoviesService} from '../movies.service';
 import {RouterLink} from '@angular/router';
+import {MatButton} from '@angular/material/button';
 
 @Component({
   selector: 'app-trending-movies',
@@ -15,7 +16,8 @@ import {RouterLink} from '@angular/router';
     NgClass,
     DatePipe,
     RouterLink,
-    AsyncPipe
+    AsyncPipe,
+    MatButton
   ],
   templateUrl: './trending-movies.html',
   styleUrl: './trending-movies.scss'
@@ -23,6 +25,7 @@ import {RouterLink} from '@angular/router';
 export class TrendingMovies {
   // Columns to be displayed in the table. The order here matters.
   displayedColumns: string[] = ['title', 'poster_path', 'release_date', 'vote_average'];
+  showTotalVotes = signal(false);
 
   moviesService = inject(MoviesService);
   // The data source for the table, which is our array of movies.
@@ -45,6 +48,11 @@ export class TrendingMovies {
   }
 
   getRating(rating: number): string {
+    console.log("get rating");
     return new Intl.NumberFormat('en-US').format(rating);
+  }
+
+  toggleTotalVotes() {
+    this.showTotalVotes.update(value => !value);
   }
 }
