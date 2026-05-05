@@ -8,7 +8,8 @@
     "server": "node backend/server.js",
     "watch": "ng build --watch --configuration development",
     "serve-build-static": "http-server ./dist/AMDB/browser",
-    "test": "ng test"
+    "test": "ng test",
+    "cleanup": "git clean -fd && git reset --hard"
   },
   "prettier": {
     "printWidth": 100,
